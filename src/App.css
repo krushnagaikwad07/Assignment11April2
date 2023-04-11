@@ -28,11 +28,77 @@
   color: #61dafb;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+
+table{
+  width: 100%;
+  border-collapse: collapse;
+  
 }
+
+tr,
+th,
+td {
+  border: 1px solid gray;
+  padding: 5px;
+}
+
+td{
+  cursor: pointer;
+}
+.Upperfields{
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  align-items: stretch;
+ 
+  border: 5px solid gray;
+
+  
+}
+
+.Input1{
+  background-color: orange;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  flex: 1;
+  font-size: 20px;
+  font-family: sans-serif;
+  margin: 10px;
+  
+}
+
+.Table{
+  background-color: yellow;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  flex: 1;
+  font-size: 20px;
+  font-family: sans-serif;
+  margin: 10px;
+  
+}
+input{
+  font-size: 20px;
+  border-radius: 8px;
+}
+
+button{
+  display: inline-block;
+  padding: 15px 25px;
+  font-size: 24px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #4CAF50;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+
+}
+
